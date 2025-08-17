@@ -1,0 +1,6 @@
+# Core Excel I/O
+openpyxl>=3.1.2       # read/write .xlsx files (fast and pure-python)
+
+# Windows-COM automation for Excel (only needed when running on Windows)
+pywin32>=306          # win32com.client interface to Excel
+psutil>=5.9.5         # safely terminate lingering Excel processes
